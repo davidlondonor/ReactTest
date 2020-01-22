@@ -1,0 +1,86 @@
+.CardSection {
+    background-color: rgb(213, 242, 243);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards {
+    width: 220px;
+    height: 169px;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    border: 2 solid rgba(27, 27, 27, 0.943);
+    background-color: white;
+}
+.imageCredits {
+    display: inline-flex;
+    justify-content: space-between;
+    border: 1px solid #81818173;
+    height: 60px;
+    background-color: #fafbfd;
+    padding: 0.5rem;
+}
+.imageSize {
+    width: 45px;
+    height: 45px;
+    margin-bottom: -50px;
+    z-index: 2;
+}
+
+.Card__Details {
+    flex-direction: column;
+    text-align: left;
+    padding: 0.5rem;
+    background-color: white;
+    border: 2 solid rgba(27, 27, 27, 0.943);
+}
+.starts {
+    display: flex;
+    align-self: flex-start;
+}
+.credits {
+    margin: 0;
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 1px;
+    font-size: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 2 solid rgba(27, 27, 27, 0.943);
+    background-color: rgb(255, 255, 255);
+}
+.descriptionP {
+    font-size: 7px;
+    margin: 0;
+    text-align: left;
+    background-color: white;
+    color: grey;
+}
+.title {
+    font-size: 10px;
+    background-color: white;
+}
+
+div.text__Details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+}
+.StarPrice {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+    margin-top: 20px;
+    background-color: white;
+}
+.StarPrice > p {
+    margin-bottom: 0;
+    background-color: white;
+}
+.color {
+    color: #4391e8;
+}
